@@ -1,0 +1,500 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* All Screens*/
+
+body{
+    height: 100vh;
+    background-color: hsla(174, 62%, 47%, 4%);
+}
+
+.container{
+    width: 1440px;
+    height: 840px;
+    background-color: hsla(174, 62%, 47%, 4%);
+    display: flex;
+    gap: 120px;
+    margin: auto;
+}
+
+.intro{
+    width: 460px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 205px;
+    margin-left: 140px;
+    font-family: 'Cabin', sans-serif;
+    
+
+    >img{
+        width: 77.33px;
+        height: 80px;
+
+    }
+
+    >.introText{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+
+        >.introTextHeader{
+            font-size: 40px;
+            line-height: 50px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -0.8px;
+            color: hsla(174, 100%, 2%, 1);
+        }
+
+        >p{
+            font-size: 16px;
+            line-height: 25px;
+            font-style: normal;
+            color: hsla(0, 0%, 45%, 1);
+            font-weight: 400;
+        
+        }
+    }
+}
+
+.form{
+    height: 679px;
+    width: 580px;
+    margin-top: 81px;
+    font-family: 'Sofia Sans', sans-serif;
+    border-radius: 6px;
+    background: hsla(0, 0%, 100%, 1);
+    box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >form{
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        >label{
+            display: flex;
+            flex-direction: column;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.1px;
+            font-size: 14px;
+            color: hsla(208, 96%, 10%, 1);
+            font-style: normal;
+            outline: none;
+            gap: 10px;
+
+
+            >input{
+                width: 238px;
+                height: 48px;
+                padding-left: 16px;
+                outline-color:hsla(174, 62%, 47%, 1);
+                outline-style: solid 1px;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 400;
+                font-style: normal;
+                color: hsla(208, 96%, 10%, 1);
+                letter-spacing: 0.2px;
+                border: solid 1px;
+                border-color: hsla(0, 0%, 94%, 1);
+                border-radius: 2px;
+            }
+        }
+
+        >.gender{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+
+            >p{
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.1px;
+                font-size: 14px;
+                color: hsla(208, 96%, 10%, 1);
+                font-style: normal;
+                outline: none;
+            }
+
+            >select{
+                width: 238px;
+                height: 48px;
+                padding-left: 16px;
+                outline-color:hsla(174, 62%, 47%, 1);
+                outline-style: solid 1px;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 400;
+                font-style: normal;
+                color: hsla(208, 96%, 10%, 1);
+                letter-spacing: 0.2px;
+                border: solid 1px;
+                border-color: hsla(0, 0%, 94%, 1);
+                border-radius: 2px;
+                cursor: pointer;
+            }
+        }
+
+        >.activityLevel{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 6px;
+        cursor: pointer;
+    
+    
+                >p{
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.1px;
+                    font-size: 14px;
+                    color: hsla(208, 96%, 10%, 1);
+                    font-style: normal;
+                    outline: none;
+                }
+    
+                >select{
+                    width: 500px;
+                    height: 48px;
+                    padding-left: 16px;
+                    outline-color:hsla(174, 62%, 47%, 1);
+                    outline-style: solid 1px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    color: hsla(208, 96%, 10%, 1);
+                    letter-spacing: 0.2px;
+                    border: solid 1px;
+                    border-color: hsla(0, 0%, 94%, 1);
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+        } 
+
+        .password{
+            display: flex;
+            flex-direction: column;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 0.1px;
+            font-size: 14px;
+            color: hsla(208, 96%, 10%, 1);
+            font-style: normal;
+            outline: none;
+            gap: 10px;
+            margin-top: 6px;
+
+            >#password{
+                width: 500px;
+                height: 48px;
+                padding-left: 16px;
+                outline-color:hsla(174, 62%, 47%, 1);
+                outline-style: solid 1px;
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 400;
+                font-style: normal;
+                color: hsla(208, 96%, 10%, 1);
+                letter-spacing: 0.2px;
+                border: solid 1px;
+                border-color: hsla(0, 0%, 94%, 1);
+                border-radius: 2px;
+            }
+        }
+
+        >button{
+            width: 500px;
+            height: 48px;
+            background-color: hsla(174, 62%, 47%, 1);
+            color: hsla(0, 0%, 100%, 1);
+            letter-spacing: 0.2px;
+            line-height: normal;
+            font-weight: 600;
+            font-size: 16px;
+            font-style: normal;
+            color: hsla(0, 0%, 100%, 1);
+            border: solid 1px;
+            border-color: hsla(174, 62%, 47%, 1);
+            margin-top: 6px;
+            cursor: pointer;
+        }
+
+        >p{
+            color: hsla(0, 0%, 0%, 1);
+            font-weight: 400;
+            line-height: 25px;
+            font-size: 14px;
+            font-style: normal;
+
+            >a{
+                color: hsla(174, 62%, 47%, 1);
+                text-decoration: underline;
+                line-height: 25px;
+                font-size: 14px;
+                font-style: normal;
+            }
+        }
+    }
+}
+
+
+
+/* Mobile Phones */
+@media only screen and (max-width: 600px) {
+    
+    .container{
+        background-color: hsla(174, 62%, 47%, 4%);
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: auto;
+        width: 375px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .intro{
+        height: 275px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-top: 30px;
+        margin-left: 24px;
+        font-family: 'Cabin', sans-serif;
+        width: 327px;
+        
+    
+        >img{
+            width: 38.667px;
+            height: 40px;
+    
+        }
+    
+        >.introText{
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+    
+    
+            >.introTextHeader{
+                font-size: 30px;
+                line-height: normal;
+                font-style: normal;
+                font-weight: 700;
+                letter-spacing: -0.8px;
+                color: hsla(174, 100%, 2%, 1);
+            }
+    
+            >p{
+                font-size: 16px;
+                line-height: 25px;
+                font-style: normal;
+                color: hsla(0, 0%, 45%, 1);
+                font-weight: 400;
+            }
+        }
+    }
+    
+    .form{
+        height: 890px;
+        width: 327px;
+        font-family: 'Sofia Sans', sans-serif;
+        border-radius: 6px;
+        background: hsla(0, 0%, 100%, 1);
+        box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+    
+        >form{
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            justify-content: center;
+            align-items: center;
+    
+            >label{
+                display: flex;
+                flex-direction: column;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.1px;
+                font-size: 14px;
+                color: hsla(208, 96%, 10%, 1);
+                font-style: normal;
+                outline: none;
+                gap: 10px;
+    
+    
+                >input{
+                    width: 295px;
+                    height: 48px;
+                    padding-left: 16px;
+                    outline-color:hsla(174, 62%, 47%, 1);
+                    outline-style: solid 1px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    color: hsla(208, 96%, 10%, 1);
+                    letter-spacing: 0.2px;
+                    border: solid 1px;
+                    border-color: hsla(0, 0%, 94%, 1);
+                    border-radius: 2px;
+                }
+            }
+    
+            >.gender{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+    
+    
+                >p{
+                    font-weight: 600;
+                    line-height: normal;
+                    letter-spacing: 0.1px;
+                    font-size: 14px;
+                    color: hsla(208, 96%, 10%, 1);
+                    font-style: normal;
+                    outline: none;
+                }
+    
+                >select{
+                    width: 295px;
+                    height: 48px;
+                    padding-left: 16px;
+                    outline-color:hsla(174, 62%, 47%, 1);
+                    outline-style: solid 1px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    color: hsla(208, 96%, 10%, 1);
+                    letter-spacing: 0.2px;
+                    border: solid 1px;
+                    border-color: hsla(0, 0%, 94%, 1);
+                    border-radius: 2px;
+                    cursor: pointer;
+                }
+            }
+    
+            >.activityLevel{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 6px;
+            cursor: pointer;
+        
+        
+                    >p{
+                        font-weight: 600;
+                        line-height: normal;
+                        letter-spacing: 0.1px;
+                        font-size: 14px;
+                        color: hsla(208, 96%, 10%, 1);
+                        font-style: normal;
+                        outline: none;
+                    }
+        
+                    >select{
+                        width: 295px;
+                        height: 48px;
+                        padding-left: 16px;
+                        outline-color:hsla(174, 62%, 47%, 1);
+                        outline-style: solid 1px;
+                        font-size: 16px;
+                        line-height: 20px;
+                        font-weight: 400;
+                        font-style: normal;
+                        color: hsla(208, 96%, 10%, 1);
+                        letter-spacing: 0.2px;
+                        border: solid 1px;
+                        border-color: hsla(0, 0%, 94%, 1);
+                        border-radius: 2px;
+                        cursor: pointer;
+                    }
+            } 
+    
+            .password{
+                display: flex;
+                flex-direction: column;
+                font-weight: 600;
+                line-height: normal;
+                letter-spacing: 0.1px;
+                font-size: 14px;
+                color: hsla(208, 96%, 10%, 1);
+                font-style: normal;
+                outline: none;
+                gap: 10px;
+                margin-top: 6px;
+    
+                >#password{
+                    width: 295px;
+                    height: 48px;
+                    padding-left: 16px;
+                    outline-color:hsla(174, 62%, 47%, 1);
+                    outline-style: solid 1px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    font-style: normal;
+                    color: hsla(208, 96%, 10%, 1);
+                    letter-spacing: 0.2px;
+                    border: solid 1px;
+                    border-color: hsla(0, 0%, 94%, 1);
+                    border-radius: 2px;
+                }
+            }
+    
+            >button{
+                width: 295px;
+                height: 48px;
+                background-color: hsla(174, 62%, 47%, 1);
+                color: hsla(0, 0%, 100%, 1);
+                letter-spacing: 0.2px;
+                line-height: normal;
+                font-weight: 600;
+                font-size: 16px;
+                font-style: normal;
+                color: hsla(0, 0%, 100%, 1);
+                border: solid 1px;
+                border-color: hsla(174, 62%, 47%, 1);
+                margin-top: 6px;
+                cursor: pointer;
+            }
+    
+            >p{
+                color: hsla(0, 0%, 0%, 1);
+                font-weight: 400;
+                line-height: 25px;
+                font-size: 14px;
+                font-style: normal;
+    
+                >a{
+                    color: hsla(174, 62%, 47%, 1);
+                    text-decoration: underline;
+                    line-height: 25px;
+                    font-size: 14px;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+  }
